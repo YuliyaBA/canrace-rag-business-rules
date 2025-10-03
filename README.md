@@ -1,4 +1,4 @@
-# CanRace RAG QA Pipeline
+# CanRace RAG Business Rules Pipeline
 
 This repository implements a Retrieval-Augmented Generation (RAG) pipeline to validate racing eligibility logic for CanRace entities such as horses, jockeys, trainers, and owners.
 
@@ -8,7 +8,7 @@ The goal is to ensure that prompts related to racing eligibility correctly retri
 
 ##  Folder Structure
 
-canrace-rag-qa/ ├── README.md ├── rule_chunks.yaml ├── ontology_schema.yaml ├── test_prompts.yaml ├── expected_chunks.yaml ├── qa_runner.py ├── test_log.csv └── prompt_templates.yaml
+canrace-rag-business-logic/ ├── README.md ├── rule_chunks.yaml ├── ontology_schema.yaml ├── test_prompts.yaml ├── expected_chunks.yaml ├── qa_runner.py ├── test_log.csv └── prompt_templates.yaml
 
 
 
