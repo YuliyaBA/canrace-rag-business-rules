@@ -1,0 +1,47 @@
+- id: rule_horse_hasNotStarted12Months
+  entity: horse
+  flag: hasNotStarted12Months
+  impact: cannotRace
+  enforced: true
+
+- id: rule_horse_isCovered
+  entity: horse
+  flag: isCovered
+  impact: canRace
+  enforced: true
+
+- id: rule_jockey_baselineConcussionTest12Months
+  entity: jockey
+  flag: baselineConcussionTest12Months
+  impact: cannotRace
+  enforced: true
+
+- id: rule_jockey_physical12Months
+  entity: jockey
+  flag: physical12Months
+  impact: cannotRace
+  enforced: true
+
+- id: rule_jockey_acknowledgeConcussionProtocol
+  entity: jockey
+  flag: acknowledgeConcussionProtocol
+  impact: cannotRace
+  enforced: true
+
+- id: rule_trainer_finesOwing
+  entity: trainer
+  flag: finesOwing
+  impact: cannotRace
+  enforced: true
+
+- id: rule_trainer_feesOwing
+  entity: trainer
+  flag: feesOwing
+  impact: cannotRace
+  enforced: true
+
+- id: rule_owner_onRulingsList
+  entity: owner
+  flag: onRulingsList
+  impact: cannotRace
+  enforced: true
