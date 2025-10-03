@@ -1,0 +1,13 @@
+schema:
+  entity:
+    type: string
+    values: [horse, jockey, trainer, owner]
+  flag:
+    type: string
+    description: Condition or status that affects racing eligibility
+  impact:
+    type: string
+    values: [canRace, cannotRace]
+  enforced:
+    type: boolean
+    description: Whether the rule is actively enforced
