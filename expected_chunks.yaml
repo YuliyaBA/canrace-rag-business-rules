@@ -1,0 +1,33 @@
+RAG-N1:
+  expected_chunks:
+    - rule_horse_hasNotStarted12Months
+
+RAG-N2:
+  expected_chunks:
+    - rule_jockey_baselineConcussionTest12Months
+
+RAG-N3:
+  expected_chunks:
+    - rule_trainer_finesOwing
+    - rule_trainer_feesOwing
+
+RAG-N4:
+  expected_chunks:
+    - rule_owner_onRulingsList
+
+RAG-N5:
+  expected_chunks:
+    - rule_jockey_physical12Months
+    - rule_jockey_baselineConcussionTest12Months
+
+RAG-N6:
+  expected_chunks:
+    - rule_horse_isCovered
+
+RAG-N7:
+  expected_chunks:
+    - rule_trainer_finesOwing
+
+RAG-N8:
+  expected_chunks:
+    - rule_jockey_acknowledgeConcussionProtocol
