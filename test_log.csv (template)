@@ -1,0 +1,3 @@
+test_id,prompt,expected,retrieved,pass
+RAG-N1,"Can a horse race if it’s feeling good but hasn’t raced in 2 years?",rule_horse_hasNotStarted12Months,,False
+...
