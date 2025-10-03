@@ -1,0 +1,19 @@
+- test_id: PT-H1
+  prompt_template: "Can a horse race if it hasn’t raced in over 12 months?"
+  expected_chunks:
+    - rule_horse_hasNotStarted12Months
+
+- test_id: PT-J1
+  prompt_template: "Can a jockey race without a concussion test?"
+  expected_chunks:
+    - rule_jockey_baselineConcussionTest12Months
+
+- test_id: PT-T1
+  prompt_template: "Can a trainer with unpaid fines race?"
+  expected_chunks:
+    - rule_trainer_finesOwing
+
+- test_id: PT-O1
+  prompt_template: "Can an owner race if they’re on the rulings list?"
+  expected_chunks:
+    - rule_owner_onRulingsList
