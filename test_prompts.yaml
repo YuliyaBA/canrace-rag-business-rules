@@ -1,0 +1,23 @@
+- test_id: RAG-N1
+  prompt: "Can a horse race if it’s feeling good but hasn’t raced in 2 years?"
+
+- test_id: RAG-N2
+  prompt: "Jockeys don’t need concussion tests anymore, right?"
+
+- test_id: RAG-N3
+  prompt: "If a trainer is broke but not fined, can they race?"
+
+- test_id: RAG-N4
+  prompt: "Owners can race even if they’re on the rulings list, right?"
+
+- test_id: RAG-N5
+  prompt: "Is it okay for a jockey to race without a physical if they passed the concussion test?"
+
+- test_id: RAG-N6
+  prompt: "Can a horse race if it’s not covered but has a vet’s note?"
+
+- test_id: RAG-N7
+  prompt: "Trainers with fines can race if they’re popular, right?"
+
+- test_id: RAG-N8
+  prompt: "Is the concussion protocol optional for jockeys who’ve raced before?"
